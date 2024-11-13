@@ -1,6 +1,6 @@
 #Напишите программу, которая считывает текст из файла (text.txt) и выводит количество слов в этом файле.
 # Открытие файла в режиме чтения
-with open(r"C:\Users\Lenovo\Desktop\Ипо\лр-5\3\text.txt", "r", encoding="utf-8") as file:
+with open("text.txt", "r", encoding="utf-8") as file:
     # Чтение содержимого файла
     text = file.read()
 
